@@ -4,8 +4,6 @@ from anekdot import show_anekdot
 from input_data import get_user_input
 from analyze import analyze_mood
 from output_community import show_community
-from music import recommend_music
-from merch import process_merch
 
 def main():
     print("Приветсвтую вас, дорогой пользователь! Я ваш текстовый бот-помощник. Чего хотите?")
