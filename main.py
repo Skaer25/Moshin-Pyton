@@ -8,7 +8,7 @@ from music import recommend_music
 from merch import process_merch
 
 def main():
-    print("Йоу, братишка! Я твой текстовый бот-помощник. Что хочешь?")
+    print("Приветсвтую вас, дорогой пользователь! Я ваш текстовый бот-помощник. Чего хотите?")
     while True:
         print("\nМеню:")
         print("1 — Анекдот")
