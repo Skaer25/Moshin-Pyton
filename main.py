@@ -20,11 +20,11 @@ def main():
         if choice == "1":
             show_anekdot()
         elif choice == "2":
-            mood = get_user_input("Как дела, братишка? Напиши своё настроение: ")
+            mood = get_user_input("Как дела, твои пользователь? Напишите ваше настроение: ")
             mood_result = analyze_mood(mood)
             show_community(mood_result)
         elif choice == "0":
-            print("Пока, братишка! Заходи ещё!")
+            print("До скорой встречи, пользователь! Заходи ещё!")
             break
         else:
             print("Такой команды нет, попробуй ещё раз!")
