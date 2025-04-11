@@ -23,10 +23,6 @@ def main():
             mood = get_user_input("Как дела, братишка? Напиши своё настроение: ")
             mood_result = analyze_mood(mood)
             show_community(mood_result)
-        elif choice == "3":
-            recommend_music()
-        elif choice == "4":
-            process_merch()
         elif choice == "0":
             print("Пока, братишка! Заходи ещё!")
             break
